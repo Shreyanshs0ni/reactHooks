@@ -1,12 +1,12 @@
 import React from "react";
-import UseState from "./hooks/UseState";
-import UseEffect from "./hooks/UseEffect";
+import TestUseState from "./hooks/TestUseState";
+import TestUseEffect from "./hooks/TestUseEffect";
 
 const App = () => {
   return (
     <div>
-      <UseState />
-      <UseEffect />
+      <TestUseState />
+      <TestUseEffect />
     </div>
   );
 };
