@@ -3,17 +3,17 @@ import React, { useEffect, useRef, useState } from "react";
 const TestUseRef = () => {
   //first
   const [value, setValue] = useState(0);
+  const count = useRef(0);
   const increase = () => {
     setValue((prev) => prev + 1);
   };
   const decrease = () => {
     setValue((prev) => prev - 1);
   };
-  const count = useRef(0);
 
   useEffect(() => {
     count.current = count.current + 1;
-  });
+  }, [value]);
   //second
   const inputElem = useRef("");
   const addElem = () => {
