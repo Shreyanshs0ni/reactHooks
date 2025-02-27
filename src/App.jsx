@@ -7,6 +7,7 @@ import TestUseCallback from "./hooks/TestUseCallback";
 import TestUseContext from "./hooks/TestUseContext";
 import TestUseReducer from "./hooks/TestUseReducer";
 import TestUseLayoutEffect from "./hooks/TestUseLayoutEffect";
+import TestCustomHooks from "./hooks/TestCustomHooks";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <TestUseContext />
       <TestUseReducer />
       <TestUseLayoutEffect />
+      <TestCustomHooks />
     </div>
   );
 };
