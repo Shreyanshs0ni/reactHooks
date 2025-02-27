@@ -46,7 +46,7 @@ const UseState = () => {
           <h1 className="text-3xl font-bold">The Color is {color}!</h1>
           <button
             onClick={changeColor}
-            className="cursor- pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor- pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             Change Color
           </button>
@@ -60,13 +60,13 @@ const UseState = () => {
           </p>
           <button
             onClick={changeCarColor}
-            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             Change Car Color
           </button>
           <button
             onClick={changeCarBrand}
-            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             Change Car Brand
           </button>
@@ -77,13 +77,13 @@ const UseState = () => {
 
           <button
             onClick={increaseCount}
-            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             Increase
           </button>
           <button
             onClick={decreaseCount}
-            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             Decrease
           </button>

@@ -32,7 +32,7 @@ const TestUseMemo = () => {
             onClick={() => {
               setCount(count + 1);
             }}
-            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             Increase by 1
           </button>

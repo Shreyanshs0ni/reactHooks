@@ -31,14 +31,14 @@ const TestUseRef = () => {
         <div className="flex h-[100vh] flex-col items-center justify-center gap-5">
           <button
             onClick={increase}
-            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             +1
           </button>
           <h1 className="text-3xl font-bold">The Count is {value}!</h1>
           <button
             onClick={decrease}
-            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             -1
           </button>
@@ -54,7 +54,7 @@ const TestUseRef = () => {
           />
           <button
             onClick={addElem}
-            className="w-50 cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-500 hover:bg-black hover:text-white"
+            className="w-50 cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
           >
             Enter
           </button>

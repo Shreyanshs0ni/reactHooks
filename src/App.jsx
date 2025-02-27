@@ -3,6 +3,7 @@ import TestUseState from "./hooks/TestUseState";
 import TestUseEffect from "./hooks/TestUseEffect";
 import TestUseRef from "./hooks/TestUseRef";
 import TestUseMemo from "./hooks/TestUseMemo";
+import TestUseCallback from "./hooks/TestUseCallback";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <TestUseEffect />
       <TestUseRef />
       <TestUseMemo />
+      <TestUseCallback />
     </div>
   );
 };
