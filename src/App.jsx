@@ -5,6 +5,8 @@ import TestUseRef from "./hooks/TestUseRef";
 import TestUseMemo from "./hooks/TestUseMemo";
 import TestUseCallback from "./hooks/TestUseCallback";
 import TestUseContext from "./hooks/TestUseContext";
+import TestUseReducer from "./hooks/TestUseReducer";
+import TestUseLayoutEffect from "./hooks/TestUseLayoutEffect";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <TestUseMemo />
       <TestUseCallback />
       <TestUseContext />
+      <TestUseReducer />
+      <TestUseLayoutEffect />
     </div>
   );
 };
