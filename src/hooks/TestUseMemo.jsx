@@ -14,6 +14,7 @@ const TestUseMemo = () => {
     <div className="relative h-[100vh] w-[100%] bg-[#B6FFA1]">
       <h1 className="absolute top-10 m-auto w-[100%] text-center text-3xl font-bold">
         useMemo
+        <p className="mt-5 text-sm font-medium underline">Open Console</p>
       </h1>
       <div className="flex flex-row items-center justify-between px-80">
         <div className="flex h-[100vh] flex-col items-center justify-center gap-10">

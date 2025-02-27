@@ -4,6 +4,7 @@ import TestUseEffect from "./hooks/TestUseEffect";
 import TestUseRef from "./hooks/TestUseRef";
 import TestUseMemo from "./hooks/TestUseMemo";
 import TestUseCallback from "./hooks/TestUseCallback";
+import TestUseContext from "./hooks/TestUseContext";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <TestUseRef />
       <TestUseMemo />
       <TestUseCallback />
+      <TestUseContext />
     </div>
   );
 };
