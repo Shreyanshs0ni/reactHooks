@@ -8,6 +8,7 @@ import TestUseContext from "./hooks/TestUseContext";
 import TestUseReducer from "./hooks/TestUseReducer";
 import TestUseLayoutEffect from "./hooks/TestUseLayoutEffect";
 import TestCustomHooks from "./hooks/TestCustomHooks";
+import ContextProvider from "./context/AppContext";
 
 const App = () => {
   return (
@@ -17,7 +18,9 @@ const App = () => {
       <TestUseRef />
       <TestUseMemo />
       <TestUseCallback />
-      <TestUseContext />
+      <ContextProvider>
+        <TestUseContext />
+      </ContextProvider>
       <TestUseReducer />
       <TestUseLayoutEffect />
       <TestCustomHooks />

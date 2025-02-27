@@ -1,4 +1,5 @@
 import React, { useReducer, useState } from "react";
+import { preload } from "react-dom";
 
 const initialState = { count: 0 };
 
@@ -7,12 +8,12 @@ const reducer = (state, action) => {
     case "increase":
       return {
         ...state,
-        count: state.count + action.data,
+        count: state.count + action.preload,
       };
     case "decrease":
       return {
         ...state,
-        count: state.count - action.data,
+        count: state.count - action.preload,
       };
   }
 };
@@ -32,7 +33,7 @@ const TestUseReducer = () => {
 
         <button
           onClick={() => {
-            dispatch({ type: "increase", data: 2 });
+            dispatch({ type: "increase", preload: 2 });
           }}
           className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
         >
@@ -42,7 +43,7 @@ const TestUseReducer = () => {
           onClick={() => {
             dispatch({
               type: "decrease",
-              data: 2,
+              preload: 2,
             });
           }}
           className="cursor-pointer rounded-3xl border border-black p-2 text-black transition-colors duration-300 hover:bg-black hover:text-white"
